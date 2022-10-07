@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP RESIDENCE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="./assets/logo.png" />
+  </head>
+  <body>
+    <!-- Navbar component and it's elements -->
+    <nav class="navbar">
+      <div class="logo">
+        <h3>
+          <img src="./assets/logo.png" alt="" />
+        </h3>
+      </div>
+      <ul class="nav-links">
+        <li class="home-link"><a href="#">Home</a></li>
+        <li><a href="#">Demos</a></li>
+        <li><a href="#">Properties</a></li>
+        <li><a href="#">Agents</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Favourites</a></li>
+      </ul>
+      <ul class="right-nav">
+        <img src="./assets/phone.png" alt="" />
+        <li class="phone-number">
+          <a href="tel:+1800-555-6789">+ 1 800-555-6789</a>
+        </li>
+        <a href="#"><img src="./assets/user.png" alt="" /></a>
+      </ul>
+      <div class="hamburger">
+        <div line1></div>
+        <div line2></div>
+        <div line3></div>
+      </div>
+    </nav>
+
+    <!-- Header section, the image to the left and the info on the right -->
+    <header class="header">
+      <div class="container">
+        <img src="./assets/pexels-august-de-richelieu-4259138.jpg" alt="" />
+        <div class="info">
+          <h2>
+            A demo with MLS listings <br />
+            powered by <br />
+            mlsimport.com
+          </h2>
+          <p>
+            Intergrate MLS Listings seamlessly with your existing <br />
+            WpResidence website. Import and sync properties through <br />
+            MLSImport.com solutions.
+          </p>
+          <div class="radio-buttons">
+            <input type="radio" name="size" id="size_1" value="small" checked />
+            <label for="size_1">Sales</label>
+
+            <input type="radio" name="size" id="size_2" value="small" />
+            <label for="size_2">Rentals</label>
+          </div>
+          <div class="city-search">
+            <input
+              class="search"
+              type="text"
+              placeholder="Enter an address, city or neighborhood"
+              id="search"
+            />
+            <button class="btn-search">search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
