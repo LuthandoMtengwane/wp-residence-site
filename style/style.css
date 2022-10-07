@@ -131,6 +131,8 @@ body {
   margin: 0 auto;
 }
 
+/* header styling and I used Display Flex */
+
 .header img {
   max-width: 50%;
   object-fit: cover;
@@ -171,6 +173,8 @@ body {
   }
 }
 
+/* search and rentals radio buttons */
+
 .radio-buttons {
   display: flex;
 }
@@ -201,6 +205,7 @@ input[type="radio"]:checked + label {
   margin-top: 1rem;
 }
 
+/* search input and button styling */
 .search {
   padding: 1em 10rem;
   border: none;
